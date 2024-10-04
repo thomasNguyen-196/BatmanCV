@@ -355,5 +355,18 @@ namespace BatmanCV
             label46.Visible = true;
             label47.Visible = false;
         }
+
+        private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+        {
+            DialogResult result = MessageBox.Show("Địt mẹ mày cút", "Đụ má mày chắc chưa thằng lồn?!?!?", MessageBoxButtons.OKCancel, MessageBoxIcon.Warning);
+            if (result == DialogResult.OK)
+            {
+                MessageBox.Show("Đụ má mày", "CÚT MẸ MÀY LUÔN ĐIIIIII!!!!!");
+            } else
+            {
+                MessageBox.Show("Ooooo dthw quó òooo", "Bruh");
+                e.Cancel = true;
+            }
+        }
     }
 }

@@ -844,7 +844,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(254)))), ((int)(((byte)(254)))));
-            this.ClientSize = new System.Drawing.Size(729, 875);
+            this.ClientSize = new System.Drawing.Size(729, 749);
             this.Controls.Add(this.label47);
             this.Controls.Add(this.label46);
             this.Controls.Add(this.label45);
@@ -911,6 +911,7 @@
             this.ForeColor = System.Drawing.Color.Gray;
             this.Name = "Form1";
             this.Text = "CV";
+            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
             this.Load += new System.EventHandler(this.Form1_Load);
             this.Click += new System.EventHandler(this.Form1_Click);
             this.panel1.ResumeLayout(false);
